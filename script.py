@@ -17,7 +17,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import Normalizer
 from sklearn.metrics import r2_score
 
-dataset = pd.read_csv('C:/Users/selle/Downloads/regression-challenge/regression-challenge/regression-challenge-starter/admissions_data.csv')
+dataset = pd.read_csv('admissions_data.csv')
 
 dataset = dataset.drop(['Serial No.'], axis = 1)
 #dataset = dataset.drop(['University Rating'], axis = 1)
