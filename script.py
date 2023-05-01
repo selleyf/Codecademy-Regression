@@ -66,7 +66,6 @@ ax1.set_ylabel('MAE')
 ax1.set_xlabel('epoch')
 ax1.legend(['train', 'validation'], loc='upper left')
  
-  # Plot loss and val_loss over each epoch
 ax2 = fig.add_subplot(2, 1, 2)
 ax2.plot(history.history['loss'])
 ax2.plot(history.history['val_loss'])
